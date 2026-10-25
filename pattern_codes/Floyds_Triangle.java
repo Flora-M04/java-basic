@@ -2,11 +2,11 @@ package pattern_codes;
 
 public class Floyds_Triangle {
     public static void main(String[] args) {
-        int count = 1;
-        for (int i = 1; i <= 10; i++) {
-            for (int j = 1; j<=i; j++) {
-                System.out.print(count + " ");
-                count++;
+        int num = 1;
+        for (int row = 0; row <= 4; row++) {
+            for (int col = 0; col <= row; col++) {
+                System.out.print(num + " ");
+                num++;
             }
             System.out.println();
         }
